@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.joke {
+  @apply flex-1 overflow-y-auto text-center max-w-md md:text-left text-xl font-semibold leading-relaxed;
+}
